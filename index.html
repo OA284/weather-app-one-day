@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+
+    <!-- css files -->
+    <link rel="stylesheet" href="Css/all.min.css">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <!-- --------- -->
+
+    <!-- my css files -->
+    <link rel="stylesheet" href="Css/style.css">
+    <!-- ------------ -->
+</head>
+<body>
+    
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter City Name" spellcheck="false"/>
+            <button><img src="image/search.png" alt="search"></button>
+        </div>
+        <div class="weather">
+            <h3 class="weatherText d-block">--</h3>
+            <img src="image/clouds.png" alt="rain" class="weather-icon d-none">
+            <h1 class="temp">--°C</h1>
+            <h2 class="city">--</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="image/humidity.png" alt="humidity">
+                    <div>
+                        <p class="humidity mb-0">--%</p>
+                        <p class="mb-0">Humidity</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <img src="image/wind.png" alt="wind">
+                    <div>
+                        <p class="wind mb-0">-- Km\h</p>
+                        <p class="mb-0">Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- js files -->
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <!-- -------- -->
+
+    <!-- my js files -->
+    <script src="JS/code.js"></script>
+    <!-- ----------- -->
+</body>
+</html>
